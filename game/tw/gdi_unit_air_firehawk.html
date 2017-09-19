@@ -1,0 +1,246 @@
+<?
+include_once("./_common.php");
+include_once("$g4[path]/lib/latest.lib.php");
+include_once("$g4[path]/skin/latest/group_line/latest_group.lib.php");
+
+$g4['title'] = "타이베리움워 파이어호크";
+$g4['main-image'] = "class='game-tw'";
+
+include_once("./_head.php");
+?>
+
+<h1>타이베리움워(Tiberium Wars)</h1>
+
+<h2>GDI 유닛</h2>
+
+<h3>파이어호크(Firehawk. F2)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/gdi/unit/firehawk.png" alt="파이어호크" /></p>
+
+<p>GDI는 최고의 제공권을 유지하기 위해, 오르카보다 더 빠르고 특화된 파이어호크를 개발했다. 파이어호크는 헬캣 소이탄을 장착해 건물을 파괴하거나, 레틀스네이크 공대공 미사일을 장착해 원거리에서 적 항공기를 타격할 수 있다. 성층권 추진 로켓을 장착하면, 적 방공망의 사정거리 밖에 있는 저궤도로 날아오른 다음, 급강하해 공격할 수 있다.</p>
+
+<h4>미술 감수</h4>
+
+<p>가장 공상과학적인 느낌을 주는 유닛 중에 하나입니다.</p>
+
+<p>
+	<img src="http://goto2020.cdn1.cafe24.com/img/game/tw/ingame/gdi/unit/firehawk.jpg" alt="파이어호크(게임 화면)" />
+	<!-- <img src="http://goto2020.cdn1.cafe24.com/img/game/tw/ingame/gdi/unit/firehawk_upg.jpg" alt="파이어호크 업그레이드(게임 화면)" /> -->
+</p>
+
+<h4>능력치</h4>
+
+<table class="table" summary="파이어호크의 가격, 생산시간, 요구사항, 상성, 주무기, 보조 무기에 관한 표">
+	<colgroup>
+		<col class="attrCol">
+		<col class="valueCol">
+  </colgroup>
+	<tr>
+		<th scope="row">가격:</th>
+		<td>1500</td>
+  </tr>
+	<tr>
+    <th scope="row">생산시간:</th>
+    <td>15초</td>
+  </tr>
+	<tr>
+    <th scope="row">요구사항:</th>
+    <td>비행장, 기술 센터</td>
+  </tr>
+	<tr>
+    <th scope="row">상성:</th>
+    <td>항공기, 건물에 강함</td>
+  </tr>
+	<tr>
+    <th scope="row">주무기:</th>
+    <td>헬캣 소이탄 2개</td>
+  </tr>
+	<tr>
+    <th scope="row">보조 무기:</th>
+    <td>레틀스네이크 공대공 미사일 4발</td>
+  </tr>
+</table>
+
+<h4>설명</h4>
+
+<p>중형 항공기.</p>
+
+<h4>특수 능력</h4>
+
+<h5>성층권 진입(Stratofighter. Ctrl+A)</h5>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/gdi/ability/stratofighter.jpg" alt="성층권 진입" /></p>
+
+<p>전장의 어느 곳이든지 신속하게 이동합니다.</p>
+
+<table class="table" summary="성층권 진입의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>없음</td>
+    <td>없음</td>
+	  <td>20초</td>
+  </tr>
+</table>
+
+<h5>미사일 장착(Missile Loadout. Ctrl+S)</h5>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/gdi/ability/missile_loadout.jpg" alt="미사일 장착" /></p>
+
+<p>파이어호크에 공대공 미사일을 장착합니다. 항공기에 강함.</p>
+
+<table class="table" summary="미사일 장착의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>없음</td>
+    <td>비행장 착륙</td>
+	  <td>없음</td>
+  </tr>
+</table>
+
+<h5>폭탄 장착(Bomb Loadout. Ctrl+D)</h5>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/gdi/ability/bomb_loadout.jpg" alt="폭탄 장착" /></p>
+
+<p>파이어호크에 2개의 그라운드파운더 폭탄을 장착합니다. 건물에 강함.</p>
+
+<table class="table" summary="폭탄 장착의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>없음</td>
+    <td>비행장 착륙</td>
+	  <td>없음</td>
+  </tr>
+</table>
+
+<h5>비행장 복귀(Return to Airfield. Ctrl+F)</h5>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/gdi/ability/return.jpg" alt="비행장 복귀" /></p>
+
+<p>해당 항공기가 속한 비행장에 착륙합니다.</p>
+
+<table class="table" summary="비행장 복귀의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>없음</td>
+    <td>없음</td>
+	  <td>없음</td>
+  </tr>
+</table>
+
+<h4>업그레이드</h4>
+
+<h5>성층권 진입(Stratofighter. Ctrl+D)</h5>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/gdi/upgrade/stratofighter.jpg" alt="성층권 진입" /></p>
+
+<p>파이어호크가 전장의 어느 곳이든지 신속하게 이동하는 성층권 진입을 사용할 수 있게 합니다.</p>
+
+<table class="table" summary="성층권 진입의 가격, 요구사항, 생산시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">생산시간</th>
+  </tr>
+  <tr>
+    <td>2000</td>
+    <td>기술 센터</td>
+    <td>1분</td>
+  </tr>
+</table>
+
+<!--
+
+<h5>적재공간 확장(Hardpoints. Ctrl+S)</h5>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/kw/icon/gdi/upgrade/hardpoints.jpg" alt="적재공간 확장" /></p>
+
+<p>오르카와 파이어호크가 더 많은 미사일을 장착할 수 있도록 추가로 무기 적재공간을 확장합니다.</p>
+
+<table class="table" summary="적재공간 확장의 가격, 요구사항, 생산시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">생산시간</th>
+  </tr>
+  <tr>
+    <td>2500</td>
+    <td>비행장</td>
+    <td>45초</td>
+  </tr>
+</table>
+
+<h5>세라믹 장갑(Ceramic Armor. Ctrl+S)</h5>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/kw/icon/gdi/upgrade/ceramic_armor.jpg" alt="세라믹 장갑" /></p>
+
+<p>모든 오르카, 해머헤드, 파이어호크가 세라믹 장갑을 장착합니다. 방어력과 체력이 증가합니다.</p>
+
+<table class="table" summary="세라믹 장갑의 가격, 요구사항, 생산시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">생산시간</th>
+  </tr>
+  <tr>
+    <td>1000</td>
+    <td>비행장</td>
+    <td>30초</td>
+  </tr>
+</table>
+
+-->
+
+<?
+include_once("./_tail.php");
+?>

@@ -1,0 +1,234 @@
+<?
+include_once("./_common.php");
+include_once("$g4[path]/lib/latest.lib.php");
+include_once("$g4[path]/skin/latest/group_line/latest_group.lib.php");
+
+$g4['title'] = "타이베리움워 스크린 스킬";
+$g4['main-image'] = "class='game-tw'";
+
+include_once("./_head.php");
+?>
+
+<h1>타이베리움워(Tiberium Wars)</h1>
+
+<h2>스크린 스킬</h2>
+
+<h3>재건 드론(Reconstruction Drones)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/scrin/skill/reconstruction_drones.jpg" alt="재건 드론" /></p>
+
+<p>일정 시간동안 목표 지점 주위에 있는 유닛을 수리합니다.</p>
+
+<table class="table" summary="재건 드론의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>1500</td>
+    <td>워프 스피어</td>
+    <td>1분 30초</td>
+  </tr>
+</table>
+
+<h3>스웜(The Swarm)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/scrin/skill/the_swarm.jpg" alt="스웜" /></p>
+
+<p>목표 지점을 뒤덮는 부저 떼를 생성합니다.</p>
+
+<table class="table" summary="스웜의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>1500</td>
+    <td>신경 센터</td>
+    <td>2분 30초</td>
+  </tr>
+</table>
+
+<h3>라이트닝 스파이크(Lightning Spike)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/scrin/skill/lightning_spike.jpg" alt="라이트닝 스파이크" /></p>
+
+<p>원하는 위치에 라이트닝 스파이크 방어탑을 건설합니다.</p>
+
+<table class="table" summary="라이트닝 스파이크의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>1000</td>
+    <td>신경 센터</td>
+    <td>2분</td>
+  </tr>
+</table>
+
+<h3>타이베리움 진동 스캔(Tiberium Vibration Scan)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/scrin/skill/tiberium_vibration_scan.jpg" alt="타이베리움 진동 스캔" /></p>
+
+<p>모든 타이베리움 지대, 자원 건물, 하베스터를 레이더에 노출시킵니다.</p>
+
+<table class="table" summary="타이베리움 진동 스캔의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>500</td>
+    <td>신경 센터</td>
+    <td>1분</td>
+  </tr>
+</table>
+
+<h3>스태시스 쉴드(Stasis Shield)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/scrin/skill/stasis_shield.jpg" alt="스태시스 쉴드" /></p>
+
+<p>특정 지역에 쉴드를 생성해서 쉴드 안의 유닛을 무력화하고 보호합니다.</p>
+
+<table class="table" summary="스태시스 쉴드의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>2000</td>
+    <td>스태시스 챔버</td>
+    <td>6분</td>
+  </tr>
+</table>
+
+<h3>페이즈 필드(Phase Field)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/scrin/skill/phase_field.jpg" alt="페이즈 필드" /></p>
+
+<p>지상 유닛의 위상을 변화시켜 부분적으로 다른 차원에 속하게 합니다. 위상이 변화된 유닛은 공격할 수 없으며, 방어력이 증가합니다.</p>
+
+<table class="table" summary="페이즈 필드의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>1500</td>
+    <td>기술 조합기</td>
+    <td>3분</td>
+  </tr>
+</table>
+
+<h3>웜홀(Wormhole)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/scrin/skill/wormhole.jpg" alt="웜홀" /></p>
+
+<p>전장에 포탈 2개를 생성합니다. 아군, 적군 유닛 모두 두 포탈 사이를 순간이동할 수 있습니다.</p>
+
+<table class="table" summary="웜홀의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>2000</td>
+    <td>신호 송신기</td>
+    <td>4분</td>
+  </tr>
+</table>
+
+<h3>모선(Mothership)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/scrin/skill/mothership.jpg" alt="모선" /></p>
+
+<p>스크린 모선을 전장에 소환합니다. 발사지점에 강력한 충격파를 방출하는 촉매 포로 무장되어 있습니다. 한대만 소환 가능.</p>
+
+<table class="table" summary="모선의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>5000</td>
+    <td>신호 송신기</td>
+    <td>2분 30초</td>
+  </tr>
+</table>
+
+<h3>균열(Rift)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/scrin/skill/rift.jpg" alt="균열" /></p>
+
+<p>균열을 열어서 넓은 범위에 있는 모든 대상에 피해를 입힙니다.</p>
+
+<table class="table" summary="균열의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>없음</td>
+    <td>균열 발생기</td>
+    <td>7분</td>
+  </tr>
+</table>
+
+<?
+include_once("./_tail.php");
+?>

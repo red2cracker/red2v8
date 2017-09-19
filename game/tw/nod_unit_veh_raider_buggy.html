@@ -1,0 +1,170 @@
+<?
+include_once("./_common.php");
+include_once("$g4[path]/lib/latest.lib.php");
+include_once("$g4[path]/skin/latest/group_line/latest_group.lib.php");
+
+$g4['title'] = "타이베리움워 레이더 버기";
+$g4['main-image'] = "class='game-tw'";
+
+include_once("./_head.php");
+?>
+
+<h1>타이베리움워(Tiberium Wars)</h1>
+
+<h2>Nod 유닛</h2>
+
+<h3>레이더 버기(Raider Buggy. F2)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/unit/raider_buggy.png" alt="레이더 버기" /></p>
+
+<p>레이더 버기는 가장 흔한 Nod 차량으로, 여러가지 용도로 사용될 수 있다. 조립하기가 쉽고 상당히 튼튼한 레이더 버기는 적 보병이나 그 밖의 경차량을 처리할 수 있는 점사가 가능한 기관총을 장착하였다. 게다가 EMP 코일 업그레이드를 하면 적 기갑 사단을 상대하는데 유용하게 쓸 수 있다.</p>
+
+<h4>미술 감수</h4>
+
+<p>이 유닛은 전편의 디자인을 거의 그대로 옮겨왔습니다. 사막용 사륜차인데 바이크처럼 엎드려서 탑니다.</p>
+
+<p>
+	<img src="http://goto2020.cdn1.cafe24.com/img/game/tw/ingame/nod/unit/raider_buggy.jpg" alt="레이더 버기(게임 화면)" />
+	<img src="http://goto2020.cdn1.cafe24.com/img/game/tw/ingame/nod/unit/raider_buggy_upg.jpg" alt="레이더 버기 업그레이드(게임 화면)" />
+</p>
+
+<h4>능력치</h4>
+
+<table class="table" summary="레이더 버기의 가격, 생산시간, 요구사항, 상성, 주무기에 관한 표">
+	<colgroup>
+		<col class="attrCol">
+		<col class="valueCol">
+  </colgroup>
+	<tr>
+		<th scope="row">가격:</th>
+		<td>400</td>
+  </tr>
+	<tr>
+    <th scope="row">생산시간:</th>
+    <td>4초</td>
+  </tr>
+	<tr>
+    <th scope="row">요구사항:</th>
+    <td>군수공장</td>
+  </tr>
+	<tr>
+    <th scope="row">상성:</th>
+    <td>보병, 항공기에 강함</td>
+  </tr>
+	<tr>
+    <th scope="row">주무기:</th>
+    <td>점사 기관총(레이저)</td>
+  </tr>
+</table>
+
+<h4>설명</h4>
+
+<p>경장갑 차량.</p>
+
+<ul>
+	<li>스텔스 감지</li>
+</ul>
+
+<h4>특수 능력</h4>
+
+<h5>EMP 폭발(EMP Burst. Ctrl+A)</h5>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/ability/emp_burst.jpg" alt="EMP 폭발" /></p>
+
+<p>주위의 모든 기계 유닛과 건물이 일시적으로 무력화됩니다.</p>
+
+<table class="table" summary="EMP 폭발의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>없음</td>
+    <td>없음</td>
+	  <td>10초</td>
+  </tr>
+</table>
+
+<h5>수송선 호출(Call for Transport. Ctrl+S)</h5>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/ability/call_for_transport.jpg" alt="수송선 호출" /></p>
+
+<p>차량을 태우기 위해 캐리올을 호출합니다. 탑승한 차량은 전장의 어느 곳이든지 수송될 수 있습니다.</p>
+
+<table class="table" summary="수송선 호출의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>500</td>
+    <td>항공관제탑</td>
+	  <td>2분</td>
+  </tr>
+</table>
+
+<h4>업그레이드</h4>
+
+<h5>레이저 축전지(Laser Capacitors. Ctrl+S)</h5>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/upgrade/laser_capacitors.jpg" alt="레이저 축전지" /></p>
+
+<p>모든 레이더 버기와 스콜피온 탱크, 베놈 정찰기에 스핏파이어 레이저를 장착합니다. 공격력이 증가합니다.</p>
+
+<table class="table" summary="레이저 축전지의 가격, 요구사항, 생산시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">생산시간</th>
+  </tr>
+  <tr>
+    <td>3000</td>
+    <td>기술 연구소</td>
+    <td>1분</td>
+  </tr>
+</table>
+
+<h5>EMP 코일(EMP Coils. Ctrl+A)</h5>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/upgrade/emp_coils.jpg" alt="EMP 코일" /></p>
+
+<p>모든 레이더 버기가 EMP 코일을 갖게 됩니다. 레이더 버기가 EMP 효과로 일정한 범위의 기계 유닛과 건물을 무력화할 수 있게 됩니다.</p>
+
+<table class="table" summary="EMP 코일의 가격, 요구사항, 생산시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">생산시간</th>
+  </tr>
+  <tr>
+    <td>1000</td>
+    <td>기술 연구소</td>
+    <td>30초</td>
+  </tr>
+</table>
+
+<?
+include_once("./_tail.php");
+?>

@@ -1,0 +1,82 @@
+<?
+include_once("./_common.php");
+include_once("$g4[path]/lib/latest.lib.php");
+include_once("$g4[path]/skin/latest/group_line/latest_group.lib.php");
+
+$g4['title'] = "타이베리움워 Nod 발전소";
+$g4['main-image'] = "class='game-tw'";
+
+include_once("./_head.php");
+?>
+
+<h1>타이베리움워(Tiberium Wars)</h1>
+
+<h2>Nod 건물</h2>
+
+<h3>발전소(Power Plant. F1)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/structure/power_plant.png" alt="발전소" /></p>
+
+<p>Nod 발전소는 주변 환경에 생태학적 피해를 유발하면서 적은 양의 타이베리움에서 엄청난 양의 전력을 생성할 수 있습니다.</p>
+
+<p>
+	<img src="http://goto2020.cdn1.cafe24.com/img/game/tw/ingame/nod/structure/power_plant.jpg" alt="발전소(게임 화면)" />
+	<img src="http://goto2020.cdn1.cafe24.com/img/game/tw/ingame/nod/structure/power_plant_upg.jpg" alt="발전소 업그레이드(게임 화면)" />
+</p>
+
+<table class="table" summary="발전소의 가격, 생산시간, 전력, 요구사항에 관한 표">
+	<colgroup>
+		<col class="attrCol">
+		<col class="valueCol">
+  </colgroup>
+	<tr>
+		<th scope="row">가격:</th>
+		<td>500</td>
+  </tr>
+	<tr>
+    <th scope="row">생산시간:</th>
+    <td>5초</td>
+  </tr>
+	<tr>
+    <th scope="row">전력:</th>
+    <td>+15</td>
+  </tr>
+	<tr>
+    <th scope="row">요구사항:</th>
+    <td>건설소 또는 크레인</td>
+  </tr>
+</table>
+
+<h4>설명</h4>
+
+<p>기술 건물.</p>
+
+<h4>업그레이드</h4>
+
+<h5>액체 타이베리움 코어(Liquid Tiberium Core. Ctrl+A)</h5>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/upgrade/liquid_tiberium_core.jpg" alt="액체 타이베리움 코어" /></p>
+
+<p>해당 발전소의 발전량을 증가시킵니다. 전력 +30.</p>
+
+<table class="table" summary="액체 타이베리움 코어의 가격, 요구사항, 생산시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">생산시간</th>
+  </tr>
+  <tr>
+    <td>500</td>
+    <td>기술 연구소</td>
+    <td>5초</td>
+  </tr>
+</table>
+
+<?
+include_once("./_tail.php");
+?>

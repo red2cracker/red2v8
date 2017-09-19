@@ -1,0 +1,109 @@
+<?
+include_once("./_common.php");
+include_once("$g4[path]/lib/latest.lib.php");
+include_once("$g4[path]/skin/latest/group_line/latest_group.lib.php");
+
+$g4['title'] = "케인의 분노 블랙 핸드";
+$g4['main-image'] = "class='game-tw'";
+
+include_once("./_head.php");
+?>
+
+<h1>타이베리움워: 케인의 분노(Tiberium Wars: Kane's Wrath)</h1>
+
+<h2>블랙 핸드(Black Hand)</h2>
+
+<p><a href="http://goto2020.cdn1.cafe24.com/img/game/tw/kw/side/black_hand.jpg"><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/kw/side/black_hand_s.jpg" alt="블랙 핸드 로고" class="imgL" /></a></p>
+
+<p>전장에서 블랙 핸드와 마주치고 살아남은 자는 거의 없다. 그들은 빠르고 공격적이며 종교적 영감을 받은 "정화용" 화염 무기를 사용한다. 그들은 진정 두려워할만한 상대이다. 블랙 핸드의 가장 특이한 점은 그들은 종교적 윤리에 따라 스텔스 기술과 "영혼없는 기계"를 사용하지 않는다는 것이다.</p>
+
+<p>블랙 핸드는 가능한 살아있고 눈에 보이는 인간들을 주력으로 삼는다. 예외라면 그들이 사용하는 파괴적인 화염 무기인 퓨리파이어 전투 머신이며 모든 퓨리파이어는 전투에 나서기 전 블랙 핸드 대주교의 축복을 받아야 한다.</p>
+
+<h3 class="clear">유닛</h3>
+
+<h4>보병</h4>
+
+<ul>
+  <li><a href="kw_black_hand_unit_inf_confessor_cabal.html">컨페서 카발</a></li>
+  <li><a href="kw_black_hand_unit_inf_black_hand.html">블랙 핸드</a></li>
+</ul>
+
+<h4>차량</h4>
+
+<ul>
+	<li><a href="kw_black_hand_unit_veh_flame_tank.html">화염 탱크</a></li>
+  <li><a href="kw_black_hand_unit_veh_mantis.html">맨티스</a></li>
+  <li><a href="kw_black_hand_unit_veh_purifier.html">퓨리파이어</a></li>
+</ul>
+
+<h3>건물</h3>
+
+<h4>생산 건물</h4>
+
+<ul>
+	<li><a href="kw_black_hand_str_secret_shrine.html">비밀의 성지</a></li>
+	<li><a href="kw_black_hand_str_tech_lab.html">기술 연구소</a></li>
+</ul>
+
+<h4>보조 건물</h4>
+
+<ul>
+  <li><a href="kw_black_hand_str_shredder_turret.html">슈레더 포탑</a></li>
+</ul>
+
+<h3>스킬</h3>
+
+<h4>전력 신호 탐색(Power Signature Scan)</h4>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/kw/icon/nod/skill/power_signature_scan.jpg" alt="전력 신호 탐색" /></p>
+
+<p>지도 상의 모든 발전소의 위치가 일시적으로 드러납니다.</p>
+
+<table class="table" summary="전력 신호 탐색의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>500</td>
+    <td>작전 센터</td>
+    <td>?</td>
+  </tr>
+</table>
+
+<h4>가짜 사원(Decoy Temple)</h4>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/kw/icon/nod/skill/decoy_temple.jpg" alt="가짜 사원" /></p>
+
+<p>전장에 가짜 템플 오브 노드를 건설합니다.<br />
+적에게는 진짜 템플 오브 노드로 보이며 핵미사일 타이머를 생성합니다.</p>
+
+<!-- <p>한번에 하나의 가짜 템플 오브 노드만 건설할 수 있습니다.</p> -->
+
+<table class="table" summary="가짜 사원의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>1000</td>
+    <td>기술 연구소</td>
+    <td>?</td>
+  </tr>
+</table>
+
+<?
+include_once("./_tail.php");
+?>

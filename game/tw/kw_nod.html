@@ -1,0 +1,145 @@
+<?
+include_once("./_common.php");
+include_once("$g4[path]/lib/latest.lib.php");
+include_once("$g4[path]/skin/latest/group_line/latest_group.lib.php");
+
+$g4['title'] = "케인의 분노 Nod";
+$g4['main-image'] = "class='game-tw'";
+
+include_once("./_head.php");
+?>
+
+<h1>타이베리움워: 케인의 분노(Tiberium Wars: Kane's Wrath)</h1>
+
+<h2>Nod(The Brotherhood of Nod)</h2>
+
+<h3>유닛</h3>
+
+<h4>보병</h4>
+
+<ul>
+  <li><a href="kw_nod_unit_inf_militant_squad.html">민병대 분대</a></li>
+  <li><a href="kw_nod_unit_inf_shadow_team.html">셰도우 팀</a></li>
+</ul>
+
+<h4>차량</h4>
+
+<ul>
+	<li><a href="kw_nod_unit_veh_attack_bike.html">어택 바이크</a></li>
+	<li><a href="kw_nod_unit_veh_stealth_tank.html">스텔스 탱크</a></li>
+  <li><a href="kw_nod_unit_veh_reckoner.html">리크너</a></li>
+  <li><a href="kw_nod_unit_veh_specter.html">스펙터</a></li>
+  <li><a href="kw_nod_unit_veh_redeemer.html">리디머</a></li>
+</ul>
+
+<h4>항공기</h4>
+
+<ul>
+	<li><a href="kw_nod_unit_air_venom.html">베놈</a></li>
+  <li><a href="kw_nod_unit_air_vertigo_bomber.html">버티고 폭격기</a></li>
+</ul>
+
+<h3>건물</h3>
+
+<h4>생산 건물</h4>
+
+<ul>
+	<li><a href="kw_nod_str_operations_center.html">작전 센터</a></li>
+	<li><a href="kw_nod_str_air_tower.html">항공관제탑</a></li>
+	<li><a href="kw_nod_str_tech_lab.html">기술 연구소</a></li>
+  <li><a href="kw_nod_str_redeemer_engineering_facility.html">리디머 엔지니어링 시설</a></li>
+</ul>
+
+<h4>보조 건물</h4>
+
+<ul>
+  <li><a href="kw_nod_str_shredder_turret.html">슈레더 포탑</a></li>
+  <li><a href="kw_nod_str_laser_turret.html">레이저 포탑</a></li>
+  <li><a href="kw_nod_str_sam_turret.html">샘 포탑</a></li>
+  <li><a href="kw_nod_str_voice_of_kane.html">케인의 음성</a></li>
+  <li><a href="kw_nod_str_air_support_tower.html">항공지원탑</a></li>
+</ul>
+
+<h4>기타 건물</h4>
+
+<ul>
+  <li><a href="kw_nod_str_reckoner.html">리크너</a></li>
+</ul>
+
+<h3>스킬</h3>
+
+<h4>레이저 펜스(Laser Fencing)</h4>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/kw/icon/nod/skill/laser_fencing.jpg" alt="레이저 펜스" /></p>
+
+<p>건물 주변에 레이저 펜스를 칩니다. 건물이 점령당하거나 폭파 대상이 되는 것을 막아줍니다. 건물의 방어력이 향상됩니다.</p>
+
+<table class="table" summary="레이저 펜스의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>500</td>
+    <td>작전 센터</td>
+    <td>?</td>
+  </tr>
+</table>
+
+<h4>구원(Redemption)</h4>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/kw/icon/nod/skill/redemption.jpg" alt="구원" /></p>
+
+<p>영향권 내의 모든 아군 민병대가 전사할 때 각성자로 다시 태어납니다. 건물을 점거한 민병대는 영향을 받지 않습니다.</p>
+
+<table class="table" summary="구원의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>1500</td>
+    <td>기술 연구소</td>
+    <td>?</td>
+  </tr>
+</table>
+
+<h4>타이베리움 광맥 폭파(Tiberium Vein Detonation)</h4>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/kw/icon/nod/skill/tiberium_vein_detonation.jpg" alt="타이베리움 광맥 폭파" /></p>
+
+<p>타이베리움 지대에 매장된 지하 타이베리움 자원을 폭파시킵니다.</p>
+
+<table class="table" summary="타이베리움 광맥 폭파의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>4000</td>
+    <td>타이베리움 화학 공장</td>
+    <td>?</td>
+  </tr>
+</table>
+
+<?
+include_once("./_tail.php");
+?>

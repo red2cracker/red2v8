@@ -1,0 +1,142 @@
+<?
+include_once("./_common.php");
+include_once("$g4[path]/lib/latest.lib.php");
+include_once("$g4[path]/skin/latest/group_line/latest_group.lib.php");
+
+$g4['title'] = "타이베리움워 스콜피온 탱크";
+$g4['main-image'] = "class='game-tw'";
+
+include_once("./_head.php");
+?>
+
+<h1>타이베리움워(Tiberium Wars)</h1>
+
+<h2>Nod 유닛</h2>
+
+<h3>스콜피온 탱크(Scorpion Tank. F3)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/unit/scorpion_tank.png" alt="스콜피온 탱크" /></p>
+
+<p>스콜피온 탱크는 Nod의 방패이다. 기동성이 뛰어난 스콜피온 탱크는 장갑관통탄을 발사하는 105mm 포를 장착하였으며, 적의 공격에도 어느정도 견딜 수 있는 장갑을 가졌다. 그러나 Nod는 원래의 디자인을 개선하기 위해서 레이저 무기와 강화장갑을 개발하고 있다.</p>
+
+<h4>미술 감수</h4>
+
+<p>스콜피온 탱크의 깔끔한 점은 포탑이 없다는 것입니다. 그대신 동체 전체가 차대 위를 회전합니다. 스콜피온이라는 이름은 레이저 업그레이드를 하면 꼬리처럼 생긴 주포가 동체 뒤쪽에 달린다는 것에서 유래되었습니다.</p>
+
+<p>
+	<img src="http://goto2020.cdn1.cafe24.com/img/game/tw/ingame/nod/unit/scorpion_tank.jpg" alt="스콜피온 탱크(게임 화면)" />
+	<img src="http://goto2020.cdn1.cafe24.com/img/game/tw/ingame/nod/unit/scorpion_tank_upg.jpg" alt="스콜피온 탱크 업그레이드(게임 화면)" />
+</p>
+
+<h4>능력치</h4>
+
+<table class="table" summary="스콜피온 탱크의 가격, 생산시간, 요구사항, 상성, 주무기에 관한 표">
+	<colgroup>
+		<col class="attrCol">
+		<col class="valueCol">
+  </colgroup>
+	<tr>
+		<th scope="row">가격:</th>
+		<td>800</td>
+  </tr>
+	<tr>
+    <th scope="row">생산시간:</th>
+    <td>8초</td>
+  </tr>
+	<tr>
+    <th scope="row">요구사항:</th>
+    <td>군수공장</td>
+  </tr>
+	<tr>
+    <th scope="row">상성:</th>
+    <td>차량에 강함</td>
+  </tr>
+	<tr>
+    <th scope="row">주무기:</th>
+    <td>105mm 포(레이저)</td>
+  </tr>
+</table>
+
+<h4>설명</h4>
+
+<p>경전차.</p>
+
+<h4>특수 능력</h4>
+
+<h5>수송선 호출(Call for Transport. Ctrl+A)</h5>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/ability/call_for_transport.jpg" alt="수송선 호출" /></p>
+
+<p>차량을 태우기 위해 캐리올을 호출합니다. 탑승한 차량은 전장의 어느 곳이든지 수송될 수 있습니다.</p>
+
+<table class="table" summary="수송선 호출의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>500</td>
+    <td>항공관제탑</td>
+	  <td>2분</td>
+  </tr>
+</table>
+
+<h4>업그레이드</h4>
+
+<h5>레이저 축전지(Laser Capacitors. Ctrl+S)</h5>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/upgrade/laser_capacitors.jpg" alt="레이저 축전지" /></p>
+
+<p>모든 레이더 버기와 스콜피온 탱크, 베놈 정찰기에 스핏파이어 레이저를 장착합니다. 공격력이 증가합니다.</p>
+
+<table class="table" summary="레이저 축전지의 가격, 요구사항, 생산시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">생산시간</th>
+  </tr>
+  <tr>
+    <td>3000</td>
+    <td>기술 연구소</td>
+    <td>1분</td>
+  </tr>
+</table>
+
+<h5>도저 블레이드(Dozer Blades. Ctrl+D)</h5>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/upgrade/dozer_blades.jpg" alt="도저 블레이드" /></p>
+
+<p>모든 스콜피온 탱크에 도저 블레이드를 장착합니다. 스콜피온 탱크가 지뢰를 제거하고 중장갑 보병을 뭉갤 수 있게 됩니다.</p>
+
+<table class="table" summary="도저 블레이드의 가격, 요구사항, 생산시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">생산시간</th>
+  </tr>
+  <tr>
+    <td>1000</td>
+    <td>기술 연구소</td>
+    <td>30초</td>
+  </tr>
+</table>
+
+<?
+include_once("./_tail.php");
+?>

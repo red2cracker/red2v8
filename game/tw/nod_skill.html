@@ -1,0 +1,234 @@
+<?
+include_once("./_common.php");
+include_once("$g4[path]/lib/latest.lib.php");
+include_once("$g4[path]/skin/latest/group_line/latest_group.lib.php");
+
+$g4['title'] = "타이베리움워 Nod 스킬";
+$g4['main-image'] = "class='game-tw'";
+
+include_once("./_head.php");
+?>
+
+<h1>타이베리움워(Tiberium Wars)</h1>
+
+<h2>Nod 스킬</h2>
+
+<h3>레이더 교란 미사일(Radar Jamming Missile)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/skill/radar_jamming_missile.jpg" alt="레이더 교란 미사일" /></p>
+
+<p>일시적으로 모든 적의 레이더를 중단시킵니다.</p>
+
+<table class="table" summary="레이더 교란 미사일의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>750</td>
+    <td>작전 센터</td>
+    <td>1분</td>
+  </tr>
+</table>
+
+<h3>교란 부대(Decoy Army)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/skill/decoy_army.jpg" alt="교란 부대" /></p>
+
+<p>순수하게 시각적인 복제 유닛을 만듭니다. 지상 유닛에만 사용할 수 있습니다.</p>
+
+<table class="table" summary="교란 부대의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>500</td>
+    <td>작전 센터</td>
+    <td>1분</td>
+  </tr>
+</table>
+
+<h3>지뢰 투하(Mine Drop)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/skill/mine_drop.jpg" alt="지뢰 투하" /></p>
+
+<p>스텔스 지뢰를 전장에 매설합니다.</p>
+
+<table class="table" summary="지뢰 투하의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>1500</td>
+    <td>항공지원탑</td>
+    <td>3분</td>
+  </tr>
+</table>
+
+<h3>셰도우 타격대(Shadow Strike Team)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/skill/shadow_strike_team.jpg" alt="셰도우 타격대" /></p>
+
+<p>베테랑 셰도우 팀 2분대를 전장에 배치합니다.</p>
+
+<table class="table" summary="셰도우 타격대의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>1600</td>
+    <td>비밀의 성지</td>
+    <td>3분</td>
+  </tr>
+</table>
+
+<h3>은폐장(Cloaking Field)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/skill/cloaking_field.jpg" alt="은폐장" /></p>
+
+<p>목표 지점에 있는 아군 차량을 스텔스화합니다. 아군과 적 보병에게 피해를 입힙니다.</p>
+
+<table class="table" summary="은폐장의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>3000</td>
+    <td>기술 연구소</td>
+    <td>2분</td>
+  </tr>
+</table>
+
+<h3>타이베리움 기체 폭탄(Tiberium Vapor Bomb)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/skill/tiberium_vapor_bomb.jpg" alt="타이베리움 기체 폭탄" /></p>
+
+<p>항공기가 전장에 기체 폭탄을 투하합니다.</p>
+
+<table class="table" summary="타이베리움 기체 폭탄의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>3500</td>
+    <td>타이베리움 화학 공장</td>
+    <td>5분</td>
+  </tr>
+</table>
+
+<h3>타이베리움 씨앗(Seed Tiberium)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/skill/seed_tiberium.jpg" alt="타이베리움 씨앗" /></p>
+
+<p>액체 타이베리움을 해당 지역에 뿌려 타이베리움의 성장 속도를 촉진시킵니다.</p>
+
+<table class="table" summary="타이베리움 씨앗의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>500</td>
+    <td>타이베리움 화학 공장</td>
+    <td>4분</td>
+  </tr>
+</table>
+
+<h3>촉매 미사일(Catalyst Missile)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/skill/catalyst_missile.jpg" alt="촉매 미사일" /></p>
+
+<p>타이베리움에 접촉했을 때 파괴적인 연쇄 반응을 일으키는 촉매 미사일을 발사합니다.</p>
+
+<table class="table" summary="촉매 미사일의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>1500</td>
+    <td>타이베리움 화학 공장</td>
+    <td>5분</td>
+  </tr>
+</table>
+
+<h3>핵미사일(Nuclear Missile)</h3>
+
+<p><img src="http://goto2020.cdn1.cafe24.com/img/game/tw/icon/nod/skill/nuclear_missile.jpg" alt="핵미사일" /></p>
+
+<p>템플 오브 노드에서 핵미사일을 발사합니다.</p>
+
+<table class="table" summary="핵미사일의 가격, 요구사항, 충전시간에 관한 표">
+ 	<colgroup>
+ 		<col class="costCol">
+ 		<col class="reqCol">
+ 		<col class="timeCol">
+ 	</colgroup>
+ 	<tr>
+	  <th scope="col">가격</th>
+	  <th scope="col">요구사항</th>
+    <th scope="col">충전시간</th>
+  </tr>
+  <tr>
+    <td>없음</td>
+    <td>템플 오브 노드</td>
+    <td>7분</td>
+  </tr>
+</table>
+
+<?
+include_once("./_tail.php");
+?>
